@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_very_small_brush_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="Very Small Brush Size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/very_small_size" />
+
+        <ImageButton
+            android:id="@+id/ib_small_brush_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="Small Brush Size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/small_size" />
+
+        <ImageButton
+            android:id="@+id/ib_medium_brush_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="Medium Brush Size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/medium_size" />
+
+        <ImageButton
+            android:id="@+id/ib_large_brush_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="Large Brush Size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/large_size" />
+    </LinearLayout>
+</RelativeLayout>

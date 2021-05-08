@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Easy Drawing</string>
+    <string name="art_is_fun">Art is fun</string>
+    <string name="continue_text">Continue</string>
+    <string name="app_logo">App Logo</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="gallery">Gallery</string>
+    <string name="clear">Clear All</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_paint">Draw a new paint</string>
+    <string name="all_cleared">All Cleared</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="loading">Please wait…</string>
+    <string name="permission_denied">Oops you have denied the permission</string>
+    <string name="permission_granted">Permission Granted</string>
+    <string name="image_read_error">Image Read failed</string>
+</resources>

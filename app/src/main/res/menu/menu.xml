@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/undo"
+        android:contentDescription="Undo"
+        android:icon="@drawable/ic_undo"
+        android:title="Undo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/redo"
+        android:contentDescription="ReDo"
+        android:icon="@drawable/ic_redo"
+        android:title="Redo"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_baseline_menu_open_24"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/new_paint"
+                android:icon="@drawable/ic_new"
+                android:title="New"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/save"
+                android:icon="@drawable/ic_save"
+                android:title="Save"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/export"
+                android:icon="@drawable/ic_export"
+                android:title="Export"
+                android:visible="false"
+                app:showAsAction="ifRoom" />
+        </menu>
+
+    </item>
+
+</menu>
